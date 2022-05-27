@@ -1,0 +1,20 @@
+{
+	"flex": {
+		"style": {
+			"display": "flex"
+		}
+	},
+	"text-blue-600": {
+		"style": {
+			"--tw-text-opacity": 1,
+			"color": "rgb(37 99 235 / var(--tw-text-opacity))"
+		}
+	},
+	"transition": {
+		"style": {
+			"transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+			"transitionTimingFunction": "cubic-bezier(0.4, 0, 0.2, 1)",
+			"transitionDuration": "150ms"
+		}
+	}
+}
