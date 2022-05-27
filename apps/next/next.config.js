@@ -2,10 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
   webpack5: true,
+  images: {
+    disableStaticImages: true,
+  },
 }
 
 const { withExpo } = require('@expo/next-adapter')
 const withPlugins = require('next-compose-plugins')
+const withImages = require('next-images')
 const withTM = require('next-transpile-modules')([
   'solito',
   'dripsy',
@@ -17,6 +21,6 @@ const withTM = require('next-transpile-modules')([
 ])
 
 module.exports = withPlugins(
-  [withTM, [withExpo, { projectRoot: __dirname }]],
+  [withTM, withImages, [withExpo, { projectRoot: __dirname }]],
   nextConfig
 )
