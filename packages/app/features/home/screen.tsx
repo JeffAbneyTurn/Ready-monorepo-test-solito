@@ -1,9 +1,10 @@
 import { useSx, H1, P, Row, A } from 'dripsy'
 import React from 'react';
-import { View, Text } from 'react-native'
+import { View, Text, Image } from 'react-native'
 import { TextLink } from 'solito/link'
 import { MotiLink } from 'solito/moti'
 import tailwind from 'tailwind-rn';
+import workerImg from '../../../../resources/images/worker2.jpeg'
 
 export function HomeScreen() {
   const sx = useSx()
@@ -19,6 +20,7 @@ export function HomeScreen() {
           screen to another. This screen uses the same code on Next.js and React
           Native.
         </Text>
+        <Image source={workerImg} alt="Worker at desk" style={{height: 50, width: 50}}></Image>
         <P sx={{ textAlign: 'center' }}>
           Solito is made by{' '}
           <A
