@@ -26,6 +26,6 @@
     "@expo/ngrok": "^4.1.0",
     "next-images": "^1.8.4",
     "solito": "^0.0.26",
-    "tailwind-rn": "3.0.1"
+    "tailwind-rn": "^3.0.1"
   }
 }

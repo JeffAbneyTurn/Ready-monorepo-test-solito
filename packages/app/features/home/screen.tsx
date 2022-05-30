@@ -15,12 +15,12 @@ export function HomeScreen() {
     >
       <H1 sx={{ fontWeight: '800' }}>Welcome to Solito.</H1>
       <View style={{ maxWidth: 600 }}>
-        <Text style={tailwind('text-blue-600')}>
+        <Text style={tailwind('text-green-600')}>
           Here is a basic starter to show you how you can navigate from one
           screen to another. This screen uses the same code on Next.js and React
           Native.
         </Text>
-        <Image source={workerImg} alt="Worker at desk" style={{height: 50, width: 50}}></Image>
+        <Image source={workerImg} alt="Worker at desk" style={tailwind('w-12 md:w-18 lg:w-24 h-12 md:h-18 lg:h-24')}></Image>
         <P sx={{ textAlign: 'center' }}>
           Solito is made by{' '}
           <A
