@@ -1,0 +1,46 @@
+*, ::before, ::after {
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  
+}
+
+.flex {
+  display: flex
+}
+
+.h-12 {
+  height: 3rem
+}
+
+.w-12 {
+  width: 3rem
+}
+
+.text-purple-600 {
+  --tw-text-opacity: 1;
+  color: rgb(147 51 234 / var(--tw-text-opacity))
+}
+
+@media (min-width: 768px) {
+  .md\:text-yellow-600 {
+    --tw-text-opacity: 1;
+    color: rgb(202 138 4 / var(--tw-text-opacity))
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:h-24 {
+    height: 6rem
+  }
+
+  .lg\:w-24 {
+    width: 6rem
+  }
+
+  .lg\:text-slate-600 {
+    --tw-text-opacity: 1;
+    color: rgb(71 85 105 / var(--tw-text-opacity))
+  }
+}

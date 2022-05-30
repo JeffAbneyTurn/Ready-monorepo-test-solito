@@ -17,6 +17,7 @@ const withTM = require('next-transpile-modules')([
   'moti',
   '@motify/core',
   '@motify/components',
+  'tailwind-rn',
   'app',
 ])
 
