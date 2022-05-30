@@ -1,5 +1,6 @@
+// import content from '../../packages/app/features/**/*'
 module.exports = {
-  content: [],
+  content: ['../../packages/app/features/**/*'],
   theme: {
     extend: {},
   },

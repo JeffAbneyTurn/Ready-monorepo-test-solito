@@ -9,7 +9,7 @@
     "expo-linking": "^3.0.0",
     "moti": "canary",
     "solito": "latest",
-    "tailwind-rn": "^4.2.0"
+    "tailwind-rn": "^4.0.0"
   },
   "sideEffects": false,
   "devDependencies": {

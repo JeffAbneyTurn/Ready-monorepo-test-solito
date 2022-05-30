@@ -4,23 +4,23 @@ import { View, Text, Image } from 'react-native'
 import { TextLink } from 'solito/link'
 import { MotiLink } from 'solito/moti'
 import workerImg from '../../../../resources/images/worker2.jpeg'
-// import {useTailwind} from 'tailwind-rn';
+import {useTailwind} from 'tailwind-rn';
 
 export function HomeScreen() {
   const sx = useSx()
-  // const tailwind = useTailwind();
+  const tailwind = useTailwind()
   return (
     <View
       style={{ flex: 1, justifyContent: 'center', alignItems: 'center', padding: 16 }}
     >
       <H1 sx={{ fontWeight: '800' }}>Welcome to Solito.</H1>
       <View style={{ maxWidth: 600 }}>
-        {/* <Text style={tailwind('text-green-600 md:text-yellow-600 lg:text-slate-600')}>
+        <Text style={tailwind('text-purple-600 md:text-yellow-600 lg:text-slate-600')}>
           Here is a basic starter to show you how you can navigate from one
           screen to another. This screen uses the same code on Next.js and React
           Native.
-        </Text> */}
-        {/* <Image source={workerImg} alt="Worker at desk" style={tailwind('w-12 md:w-18 lg:w-24 h-12 md:h-18 lg:h-24')}></Image> */}
+        </Text>
+        <Image source={workerImg} alt="Worker at desk" style={tailwind('w-12 md:w-18 lg:w-24 h-12 md:h-18 lg:h-24')}></Image>
         <P sx={{ textAlign: 'center' }}>
           Solito is made by{' '}
           <A
