@@ -17,7 +17,8 @@
     "react-dom": "17.0.1",
     "solito": "^0.0.26",
     "dripsy": "^3.6.0",
-    "moti": "canary"
+    "moti": "canary",
+    "tailwind-rn": "^4.0.0"
   },
   "devDependencies": {
     "@types/node": "17.0.21",
