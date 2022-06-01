@@ -8,6 +8,7 @@
     "dripsy": "^3.6.0",
     "expo-linking": "^3.0.0",
     "moti": "canary",
+    "next-images": "^1.8.4",
     "solito": "latest",
     "tailwind-rn": "^4.0.0"
   },

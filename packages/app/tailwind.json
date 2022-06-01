@@ -47,29 +47,29 @@
 			"color": "rgb(147 51 234 / var(--tw-text-opacity))"
 		}
 	},
-	"md:text-yellow-600": {
-		"style": {
-			"--tw-text-opacity": 1,
-			"color": "rgb(202 138 4 / var(--tw-text-opacity))"
-		},
-		"media": "(min-width: 768px)"
-	},
-	"lg:h-24": {
-		"style": {
-			"height": 96
-		},
-		"media": "(min-width: 1024px)"
-	},
-	"lg:w-24": {
-		"style": {
-			"width": 96
-		},
-		"media": "(min-width: 1024px)"
-	},
-	"lg:text-slate-600": {
+	"md:text-slate-600": {
 		"style": {
 			"--tw-text-opacity": 1,
 			"color": "rgb(71 85 105 / var(--tw-text-opacity))"
+		},
+		"media": "(min-width: 768px)"
+	},
+	"lg:h-48": {
+		"style": {
+			"height": 192
+		},
+		"media": "(min-width: 1024px)"
+	},
+	"lg:w-48": {
+		"style": {
+			"width": 192
+		},
+		"media": "(min-width: 1024px)"
+	},
+	"lg:text-yellow-600": {
+		"style": {
+			"--tw-text-opacity": 1,
+			"color": "rgb(202 138 4 / var(--tw-text-opacity))"
 		},
 		"media": "(min-width: 1024px)"
 	}

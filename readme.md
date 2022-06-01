@@ -2,6 +2,8 @@
 
 The Readme below comes directly from the Solito example project. This repo started with that example project and I added tailwind to test functionality. I also added ngrok in dev dependencies to allow us to use the "tunnel" connection type in expo.
 
+When adding a RN modulve/library, be sure to update apps/next/next.config.js, adding the module to the array in the withTM plugin.
+
 # Blank Solito Example Monorepo 🕴
 
 ```sh
