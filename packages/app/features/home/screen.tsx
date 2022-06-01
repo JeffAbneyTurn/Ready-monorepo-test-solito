@@ -62,6 +62,7 @@ export function HomeScreen() {
       textAlign: 'center',
     },
   })
+
   return (
     <View
       style={{
