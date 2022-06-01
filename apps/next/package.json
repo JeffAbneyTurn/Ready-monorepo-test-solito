@@ -12,7 +12,9 @@
     "@expo/next-adapter": "^3.1.20",
     "app": "*",
     "next": "12.1.0",
-    "raf": "^3.4.1"
+    "raf": "^3.4.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   },
   "devDependencies": {
     "@types/node": "17.0.21",
