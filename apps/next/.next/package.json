@@ -1,3 +1,14 @@
 {
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "@expo/next-adapter": "^3.1.20",
+    "app": "*",
+    "next": "12.1.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  }
 }
