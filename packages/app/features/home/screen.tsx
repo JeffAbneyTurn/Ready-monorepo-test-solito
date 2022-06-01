@@ -161,6 +161,20 @@ export function HomeScreen() {
             Moti Link
           </Text>
         </MotiLink>
+        <ScrollView>
+          <Pressable
+            style={[styles.button, styles.buttonClose]}
+            onPress={() => setModalVisible(!modalVisible)}
+          >
+            <Text style={styles.textStyle}>Show Modal</Text>
+          </Pressable>
+          <Pressable
+            style={[styles.button, styles.buttonClose]}
+            onPress={() => Alert.alert('Would you look at that?!')}
+          >
+            <Text style={styles.textStyle}>Show Modal</Text>
+          </Pressable>
+        </ScrollView>
       </View>
     </View>
   )
