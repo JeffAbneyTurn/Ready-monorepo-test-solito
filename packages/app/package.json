@@ -26,7 +26,7 @@
   "overrides": {
     "@types/react": "^17.0.1",
     "@types/react-dom": "^17.0.2"
-  }
+  },
   "scripts": {
     "build:tailwind": "tailwindcss --input input.css --output tailwind.css --no-autoprefixer && tailwind-rn",
     "dev:tailwind": "concurrently \"tailwindcss --input input.css --output tailwind.css --no-autoprefixer --watch\" \"tailwind-rn --watch\""
