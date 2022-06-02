@@ -1,4 +1,3 @@
-// @ts-ignore
 import { Provider } from 'app/provider'
 import Head from 'next/head'
 import React from 'react'
