@@ -3,6 +3,7 @@
     "jsx": "react",
     "strictNullChecks": true,
     "noUncheckedIndexedAccess": true,
+    "noImplicitAny": false,
     "paths": {
       "app/*": ["./packages/app/*"]
     }
