@@ -1,6 +1,7 @@
 {
   "version": "0.0.0",
   "name": "app",
+  "type": "module",
   "main": "index.ts",
   "dependencies": {
     "@react-navigation/native": "^6.0.8",
