@@ -1,6 +1,5 @@
 import { Dripsy } from './dripsy'
 import { NavigationProvider } from './navigation'
-import React from 'react'
 import { TailwindProvider } from 'tailwind-rn/dist'
 import utilities from '../tailwind.json'
 
