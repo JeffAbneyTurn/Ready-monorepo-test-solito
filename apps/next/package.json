@@ -18,7 +18,8 @@
     "solito": "^0.0.26",
     "dripsy": "^3.6.0",
     "moti": "canary",
-    "tailwind-rn": "^4.0.0"
+    "tailwind-rn": "^4.0.0",
+    "react-native-reanimated": "~2.3.1"
   },
   "devDependencies": {
     "@types/node": "17.0.21",
