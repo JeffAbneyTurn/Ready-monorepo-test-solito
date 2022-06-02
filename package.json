@@ -21,7 +21,7 @@
     "build:tailwind": "tailwindcss --input input.css --output tailwind.css --no-autoprefixer && tailwind-rn",
     "dev:tailwind": "concurrently \"tailwindcss --input input.css --output tailwind.css --no-autoprefixer --watch\" \"tailwind-rn --watch\"",
     "build:android": "expo build:android",
-    "start": "cd apps/next && next build; next start -p $PORT"
+    "start": "cd apps/next && npm install --save-dev @types/react; next build; next start -p $PORT"
   },
   "dependencies": {
     "@expo/ngrok": "^4.1.0",
