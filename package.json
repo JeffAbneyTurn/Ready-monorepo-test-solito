@@ -25,7 +25,9 @@
   "dependencies": {
     "@expo/ngrok": "^4.1.0",
     "next-images": "^1.8.4",
-    "solito": "^0.0.26"
+    "solito": "^0.0.26",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   },
   "resolutions": {
     "@types/react": "^17.0.1",
