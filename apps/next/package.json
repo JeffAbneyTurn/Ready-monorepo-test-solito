@@ -19,8 +19,7 @@
     "dripsy": "^3.6.0",
     "moti": "canary",
     "tailwind-rn": "^4.0.0",
-    "react-native-reanimated": "~2.3.1",
-    "next-compose-plugins": "^2.2.1"
+    "react-native-reanimated": "~2.3.1"
   },
   "devDependencies": {
     "@types/node": "17.0.21",
