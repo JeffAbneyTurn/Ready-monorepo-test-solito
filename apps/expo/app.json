@@ -8,7 +8,7 @@
     "platforms": ["ios", "android"],
     "icon": "./../../resources/images/launcher_logo.png",
     "ios": {
-      "bundleIdentifier": "com.turn.ready_mobile",
+      "bundleIdentifier": "com.turn.ready-mobile",
       "buildNumber": "1.0.0"
     },
     "android": {
