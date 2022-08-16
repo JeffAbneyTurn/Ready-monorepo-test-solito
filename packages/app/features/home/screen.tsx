@@ -6,7 +6,6 @@ import {
   ScrollView,
   Modal,
   Pressable,
-  Alert,
   StyleSheet,
 } from 'react-native'
 import { TextLink } from 'solito/link'
@@ -14,6 +13,7 @@ import { MotiLink } from 'solito/moti'
 import workerImg from '../../../../resources/images/worker2.jpeg'
 import { useTailwind } from 'tailwind-rn'
 import { Link } from '@react-navigation/native'
+import { Alert } from '../components/Alert'
 
 export function HomeScreen() {
   const tailwind = useTailwind()
@@ -115,7 +115,6 @@ export function HomeScreen() {
           Solito is made by{' '}
           <Link
             to="https://twitter.com/fernandotherojo"
-            // @ts-expect-error react-native-web only types
             hrefAttrs={{
               target: '_blank',
               rel: 'noreferrer',
@@ -172,7 +171,7 @@ export function HomeScreen() {
             style={[styles.button, styles.buttonClose]}
             onPress={() => Alert.alert('Would you look at that?!')}
           >
-            <Text style={styles.textStyle}>Show Modal</Text>
+            <Text style={styles.textStyle}>Show Alert</Text>
           </Pressable>
         </ScrollView>
       </View>
