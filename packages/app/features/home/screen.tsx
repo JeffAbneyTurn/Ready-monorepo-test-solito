@@ -19,19 +19,10 @@ export function HomeScreen() {
   const tailwind = useTailwind()
   const [modalVisible, setModalVisible] = useState(false)
 
+  // some styles that tailwind-rn cant handle yet are included after tailwind classes
   const styles = StyleSheet.create({
-    centeredView: {
-      flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
-      marginTop: 22,
-    },
     modalView: {
-      margin: 20,
-      backgroundColor: 'white',
-      borderRadius: 20,
-      padding: 35,
-      alignItems: 'center',
+      ...tailwind('m-5 bg-white rounded-2xl p-9 items-center'),
       shadowColor: '#000',
       shadowOffset: {
         width: 0,
@@ -42,38 +33,24 @@ export function HomeScreen() {
       elevation: 5,
     },
     button: {
-      borderRadius: 20,
-      padding: 10,
+      ...tailwind('rounded-3xl p-2.5'),
       elevation: 2,
-    },
-    buttonOpen: {
-      backgroundColor: '#F194FF',
     },
     buttonClose: {
       backgroundColor: '#2196F3',
     },
     textStyle: {
-      color: 'white',
-      fontWeight: 'bold',
-      textAlign: 'center',
+      ...tailwind('text-white font-bold justify-center'),
     },
     modalText: {
-      marginBottom: 15,
-      textAlign: 'center',
+      ...tailwind('mb-4 justify-center'),
     },
   })
 
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        padding: 16,
-      }}
-    >
+    <View style={tailwind('flex-1 justify-center items-center p-4')}>
       <Text>Welcome to Solito.</Text>
-      <View style={{ maxWidth: 600 }}>
+      <View style={tailwind('max-w-xl')}>
         <Text
           style={tailwind(
             'text-purple-600 md:text-slate-600 lg:text-yellow-600'
@@ -92,7 +69,7 @@ export function HomeScreen() {
             setModalVisible(!modalVisible)
           }}
         >
-          <View style={styles.centeredView}>
+          <View style={tailwind('flex justify-center items-center mt-20')}>
             <View style={styles.modalView}>
               <Text style={styles.modalText}>Hello World!</Text>
               <Pressable
@@ -105,11 +82,11 @@ export function HomeScreen() {
           </View>
         </Modal>
         <Image
-          //@ts-ignore
           source={workerImg}
+          accessibilityLabel="Worker at desk"
           //@ts-ignore
           alt="Worker at desk"
-          style={tailwind('w-12 md:w-18 lg:w-48 h-12 md:h-18 lg:h-48')}
+          style={tailwind('w-12 md:w-20 lg:w-48 h-12 md:h-20 lg:h-48')}
         ></Image>
         <Text>
           Solito is made by{' '}
@@ -119,24 +96,24 @@ export function HomeScreen() {
               target: '_blank',
               rel: 'noreferrer',
             }}
-            style={{ color: 'blue' }}
+            style={tailwind('text-blue-600')}
           >
             Fernando Rojo
           </Link>
           .
         </Text>
       </View>
-      <View style={{ height: 32 }} />
-      <View style={{ display: 'flex', flexDirection: 'row' }}>
+      <View style={tailwind('h-8')} />
+      <View style={tailwind('flex flex-row')}>
         <TextLink
           href="/user/fernando"
           textProps={{
-            style: { fontSize: 16, fontWeight: 'bold', color: 'blue' },
+            style: tailwind('text-base font-bold text-blue-600'),
           }}
         >
           Regular Link
         </TextLink>
-        <View style={{ width: 32 }} />
+        <View style={tailwind('w-8')} />
         <MotiLink
           href="/user/fernando"
           animate={({ hovered, pressed }) => {
@@ -155,7 +132,7 @@ export function HomeScreen() {
         >
           <Text
             selectable={false}
-            style={{ fontSize: 16, color: 'black', fontWeight: 'bold' }}
+            style={tailwind('text-base text-black font-bold')}
           >
             Moti Link
           </Text>

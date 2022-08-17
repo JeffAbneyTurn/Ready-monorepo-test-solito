@@ -6,6 +6,18 @@
   --tw-numeric-fraction:  
 }
 
+.m-5 {
+  margin: 1.25rem
+}
+
+.mt-20 {
+  margin-top: 5rem
+}
+
+.mb-4 {
+  margin-bottom: 1rem
+}
+
 .flex {
   display: flex
 }
@@ -14,8 +26,74 @@
   height: 3rem
 }
 
+.h-8 {
+  height: 2rem
+}
+
 .w-12 {
   width: 3rem
+}
+
+.w-8 {
+  width: 2rem
+}
+
+.max-w-xl {
+  max-width: 36rem
+}
+
+.flex-1 {
+  flex: 1 1 0%
+}
+
+.flex-row {
+  flex-direction: row
+}
+
+.items-center {
+  align-items: center
+}
+
+.justify-center {
+  justify-content: center
+}
+
+.rounded-2xl {
+  border-radius: 1rem
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity))
+}
+
+.p-9 {
+  padding: 2.25rem
+}
+
+.p-2\.5 {
+  padding: 0.625rem
+}
+
+.p-2 {
+  padding: 0.5rem
+}
+
+.p-4 {
+  padding: 1rem
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem
+}
+
+.font-bold {
+  font-weight: 700
 }
 
 .text-purple-600 {
@@ -23,7 +101,30 @@
   color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity))
+}
+
+.text-blue-600 {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity))
+}
+
 @media (min-width: 768px) {
+  .md\:h-20 {
+    height: 5rem
+  }
+
+  .md\:w-20 {
+    width: 5rem
+  }
+
   .md\:text-slate-600 {
     --tw-text-opacity: 1;
     color: rgb(71 85 105 / var(--tw-text-opacity))
